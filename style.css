@@ -116,6 +116,7 @@ body {
 
     .elements-container {
         top: 38%;
+        animation: last-move-elements 1s;
     }
     
     .line {
@@ -165,6 +166,16 @@ body {
         left: 20px;
     }
 }
+
+@keyframes last-move-elements {
+    from {
+        top: 60%;
+    }
+    tp {
+        top: 38%;
+    }
+}
+
 
 @keyframes resize-square {
     from {
